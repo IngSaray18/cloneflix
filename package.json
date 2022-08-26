@@ -1,0 +1,19 @@
+{
+  "name": "cloneflix",
+  "version": "1.0.0",
+  "description": "just like the real one except this is useless",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IngSaray18/cloneflix.git"
+  },
+  "author": "Pedro Saray Cevallos <pedrosaray18@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IngSaray18/cloneflix/issues"
+  },
+  "homepage": "https://github.com/IngSaray18/cloneflix#readme"
+}
