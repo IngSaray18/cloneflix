@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/IngSaray18/cloneflix/issues"
   },
-  "homepage": "https://github.com/IngSaray18/cloneflix#readme"
+  "homepage": "https://github.com/IngSaray18/cloneflix#readme",
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
 }
