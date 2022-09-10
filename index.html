@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="estilo.css">
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"> 
+	<title>Cloneflix</title>
+</head>
+<body>
+	<header>
+		<div class="contenedor">
+			<h2 class="logotipo">CloneFlix</h2>
+			<nav>
+				<a href="#" class="activo">Inicio</a>
+				<a href="#PR">Recomendadas</a>
+				<a href="#estrenos">Ultimos estrenos</a>
+				<a href="#populares">Populares</a>
+				<a href="#">Mi lista</a>
+			</nav>
+		</div>
+	</header>
+
+	<main>
+		<div class="serie-principal" id="serie-principal">
+			<div class="contenedor">
+				<h3 class="titulo"></h3>
+				<p class="descripcion">
+					
+				</p>
+				<button role="button" class="boton"><i class="fas fa-play"></i>Reproducir</button>
+				<button role="button" class="boton"><i class="fas fa-info-circle"></i>Más información</button>
+			</div>
+		</div>
+
+
+
+		<div class="vista-series contenedor" id="Series-recomendadas">
+			<div class="contenedor-titulo-controles">
+				<h3 id="PR">Series Recomendadas</h3>
+				<div class="indicadores"></div>
+			</div>
+
+			<div class="contenedor-principal">
+				<button role="button" id="flecha-izquierda-recomendadas" class="flecha-izquierda"><i class="fas fa-angle-left"></i></button>
+
+				<div class="contenedor-carousel" id="contenedor-recomendadas">
+					<div class="carousel" id="recomendadas">
+	                      
+
+                    </div>
+				</div>
+
+				<button role="button" id="flecha-derecha-recomendadas" class="flecha-derecha"><i class="fas fa-angle-right"></i></button>
+			</div>
+		</div>
+		<div class="vista-series contenedor" id="Series-estreno">
+			<div class="contenedor-titulo-controles">
+				<h3 id="estrenos">Ultimos estrenos</h3>
+				<div class="indicadores"></div>
+			</div>
+
+			<div class="contenedor-principal">
+				<button role="button" id="flecha-izquierda-estrenos" class="flecha-izquierda"><i class="fas fa-angle-left"></i></button>
+
+				<div class="contenedor-carousel" id="contenedor-estrenos">
+					<div class="carousel" id="ultimos-estrenos">
+	                      
+						
+
+                    </div>
+				</div>
+
+				<button role="button" id="flecha-derecha-estrenos" class="flecha-derecha"><i class="fas fa-angle-right"></i></button>
+			</div>
+		</div>
+		<div class="vista-series contenedor" id="Series-populares">
+			<div class="contenedor-titulo-controles">
+				<h3 id="estrenos">Series populares</h3>
+				<div class="indicadores"></div>
+			</div>
+
+			<div class="contenedor-principal">
+				<button role="button" id="flecha-izquierda-populares" class="flecha-izquierda"><i class="fas fa-angle-left"></i></button>
+
+				<div class="contenedor-carousel" id="contenedor-populares">
+					<div class="carousel" id="populares">
+						
+						
+
+                    </div>
+				</div>
+
+				<button role="button" id="flecha-derecha-populares" class="flecha-derecha"><i class="fas fa-angle-right"></i></button>
+			</div>
+		</div>
+
+
+
+	</main>
+
+
+	<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+	<script src="main.js"></script>
+	<script src="secrets.js" ></script>
+</body>
+</html>
