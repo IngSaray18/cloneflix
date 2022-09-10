@@ -4,7 +4,7 @@
   "description": "just like the real one except this is useless",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d public"
   },
   "repository": {
     "type": "git",
